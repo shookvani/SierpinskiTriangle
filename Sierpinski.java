@@ -1,7 +1,5 @@
-//import StdDraw.*;
 import edu.princeton.cs.algs4.StdDraw;
 import java.util.*;
-import java.lang.*;
 import java.awt.*;
 public class Sierpinski {
 	static int count =0;
@@ -57,6 +55,7 @@ public class Sierpinski {
 
     //  Draws a Sierpinski triangle of order n, such that the largest filled
     //  triangle has bottom vertex (x, y) and sides of the specified length.
+	// uses recursion to get through all of the orders and fill the entire thing as necessary
     public static void sierpinski(int n, double x, double y, double length) {
         // base case
         if (n == 0) return;
@@ -80,6 +79,7 @@ public class Sierpinski {
     }
 
     //  Takes an integer command-line argument n;
+	// determines if color 
     //  draws the outline of an equilateral triangle (pointed upwards) of length 1;
     //  whose bottom-left vertex is (0, 0) and bottom-right vertex is (1, 0); and
     //  draws a Sierpinski triangle of order n that fits snugly inside the outline.
