@@ -4,3 +4,4 @@ This is so that it can be easy to visualize fractals. In the future, we can use 
 
 Other applications of fractals include: fractal cities (cities whose populations grow in fractals), fractal medicine (medical diagnoses because bloodcells grow in fractal patterns), art, image resolution, and more. 
 
+Based on the assignment from the "Recursive Graphics" from Princeton University's COS 126 (Spring, 2019) class.
